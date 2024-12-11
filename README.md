@@ -4,7 +4,7 @@ This repository presents an analysis and Bayesian spatio-temporal modeling of wi
 
 ---
 
-## Disclaimer
+### Disclaimer
 
 This project was conducted as part of the **Bayesian Statistical Methods and Data Analysis HS2024** course at **ETH Zurich**. The analysis is based on the paper:
 
