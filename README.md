@@ -8,8 +8,11 @@ This repository presents an analysis and Bayesian spatio-temporal modeling of wi
 
 This project was conducted as part of the **Bayesian Statistical Methods and Data Analysis HS2024** course at **ETH Zurich**. The analysis is based on the paper:
 
-- **[Bayesian spatio-temporal modeling of the Brazilian fire spots between 2011 and 2022](https://www.nature.com/articles/s41598-024-70082-6)**  
+- **[Bayesian spatio-temporal modeling of the Brazilian fire spots between 2011 and 2022](https://doi.org/10.1038/s41598-024-70082-6)**  
   by **Jonatha Sousa Pimentel**, **Rodrigo S. Bulhões**, and **Paulo Canas Rodrigues**.
+
+### Citation:
+Pimentel, J.S., Bulhões, R.S. & Rodrigues, P.C. **Bayesian spatio-temporal modeling of the Brazilian fire spots between 2011 and 2022**. *Sci Rep* **14**, 21616 (2024). [https://doi.org/10.1038/s41598-024-70082-6](https://doi.org/10.1038/s41598-024-70082-6).
 
 Their research serves as the foundation for the **spatio-temporal modeling framework** applied in this project.
 ## Overview
