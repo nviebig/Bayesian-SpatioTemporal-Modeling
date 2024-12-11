@@ -20,7 +20,7 @@ Their research serves as the foundation for the **spatio-temporal modeling frame
 ### Motivation
 - **Wildfires**: Critical environmental issue, exacerbated by climate change.
 - **Region**: Brazil, especially Amazonia, home to 60% of the world’s largest rainforest, vital biodiversity, and significant freshwater reserves.
-- **Objective**: Use Bayesian frameworks to model fire spots over time and space, incorporating meteorological and anthropogenic factors.
+- **Objective**: Use Bayesian frameworks to model fire spots over time and space in Amazonia, incorporating meteorological and anthropogenic factors.
 
 ### Data Sources
 1. **Fire Spot Data**: Brazilian National Institute for Space Research (INPE), satellite imagery (2011–2022).
@@ -28,8 +28,8 @@ Their research serves as the foundation for the **spatio-temporal modeling frame
 3. **Land Use Data**: MapBiomas, annual land-use and transitions data (2011–2021).
 
 ### Key Features
-- 22 million fire spots analyzed over 12 years.
-- Focus on 558 municipalities with detailed meteorological and land-use data.
+- 22 million fire spots detected over 12 years across Brazil.
+- Focus on 558 municipalities in Amazonia with detailed meteorological and land-use data.
 
 ---
 
