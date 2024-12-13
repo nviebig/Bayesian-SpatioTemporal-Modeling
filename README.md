@@ -4,15 +4,23 @@ This repository presents an analysis and Bayesian spatio-temporal modeling of wi
 
 ---
 
-## Disclaimer:
-This project was conducted as part of the Bayesian Statistical Methods and Data Analysis HS2024 course at ETH Zurich. The analysis is based on the [paper](https://www.nature.com/articles/s41598-024-70082-6) _Bayesian spatio-temporal modeling of the Brazilian fire spots between 2011 and 2022_ by Jonatha Sousa Pimentel, Rodrigo S. Bulhões, and Paulo Canas Rodrigues. Their research forms the foundation for the spatio-temporal modeling framework applied here.
+### Disclaimer
 
+This project was conducted as part of the **Bayesian Statistical Methods and Data Analysis HS2024** course at **ETH Zurich**. The analysis is based on the paper:
+
+- **[Bayesian spatio-temporal modeling of the Brazilian fire spots between 2011 and 2022](https://doi.org/10.1038/s41598-024-70082-6)**  
+  by **Jonatha Sousa Pimentel**, **Rodrigo S. Bulhões**, and **Paulo Canas Rodrigues**.
+
+### Citation:
+Pimentel, J.S., Bulhões, R.S. & Rodrigues, P.C. **Bayesian spatio-temporal modeling of the Brazilian fire spots between 2011 and 2022**. *Sci Rep* **14**, 21616 (2024). [https://doi.org/10.1038/s41598-024-70082-6](https://doi.org/10.1038/s41598-024-70082-6).
+
+Their research serves as the foundation for the **spatio-temporal modeling framework** applied in this project.
 ## Overview
 
 ### Motivation
 - **Wildfires**: Critical environmental issue, exacerbated by climate change.
 - **Region**: Brazil, especially Amazonia, home to 60% of the world’s largest rainforest, vital biodiversity, and significant freshwater reserves.
-- **Objective**: Use Bayesian frameworks to model fire spots over time and space, incorporating meteorological and anthropogenic factors.
+- **Objective**: Use Bayesian frameworks to model fire spots over time and space in Amazonia, incorporating meteorological and anthropogenic factors.
 
 ### Data Sources
 1. **Fire Spot Data**: Brazilian National Institute for Space Research (INPE), satellite imagery (2011–2022).
@@ -20,8 +28,8 @@ This project was conducted as part of the Bayesian Statistical Methods and Data 
 3. **Land Use Data**: MapBiomas, annual land-use and transitions data (2011–2021).
 
 ### Key Features
-- 22 million fire spots analyzed over 12 years.
-- Focus on 558 municipalities with detailed meteorological and land-use data.
+- 22 million fire spots detected over 12 years across Brazil.
+- Focus on 558 municipalities in Amazonia with detailed meteorological and land-use data.
 
 ---
 
@@ -97,5 +105,5 @@ To train and evaluate the Bayesian model:
 ## References
 This project builds upon the work by:
 - Jonatha Sousa Pimentel, Rodrigo S. Bulhões, Paulo Canas Rodrigues.
-
+Pimentel, J.S., Bulhões, R.S. & Rodrigues, P.C. **Bayesian spatio-temporal modeling of the Brazilian fire spots between 2011 and 2022**. *Sci Rep* **14**, 21616 (2024). [https://doi.org/10.1038/s41598-024-70082-6](https://doi.org/10.1038/s41598-024-70082-6).
 ---
