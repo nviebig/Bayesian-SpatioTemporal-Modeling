@@ -77,20 +77,20 @@ Their research serves as the foundation for the **spatio-temporal modeling frame
 
 ### Prerequisites
 - Python 3.8+
-- JAX for model computation
+- Jupyter Notebook for data exploration
 - Required Python libraries (see `requirements.txt`)
 
 ### Installation
-```bash
-git clone https://github.com/<your-repo>/wildfire-model.git
-cd wildfire-model
-pip install -r requirements.txt
-```
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/<your-repo>/wildfire-model.git
+    cd wildfire-model
+    ```
 
-### Running the Model
-To train and evaluate the Bayesian model:
-1. Prepare the dataset.
-2. Execute `main.py` with appropriate arguments for the small or big model.
+2. Install the required Python libraries:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 ---
 
