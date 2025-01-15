@@ -104,6 +104,8 @@ To train and evaluate the Bayesian model:
 
 ## References
 This project builds upon the work by:
-- Jonatha Sousa Pimentel, Rodrigo S. Bulhões, Paulo Canas Rodrigues.
-Pimentel, J.S., Bulhões, R.S. & Rodrigues, P.C. **Bayesian spatio-temporal modeling of the Brazilian fire spots between 2011 and 2022**. *Sci Rep* **14**, 21616 (2024). [https://doi.org/10.1038/s41598-024-70082-6](https://doi.org/10.1038/s41598-024-70082-6).
+- Jonatha Sousa Pimentel, Rodrigo S. Bulhões, Paulo Canas Rodrigues.  
+  Pimentel, J.S., Bulhões, R.S. & Rodrigues, P.C. **Bayesian spatio-temporal modeling of the Brazilian fire spots between 2011 and 2022**. *Sci Rep* **14**, 21616 (2024). [https://doi.org/10.1038/s41598-024-70082-6](https://doi.org/10.1038/s41598-024-70082-6).
+
+- Image Source: [The Guardian: Brazil Amazon rainforest sees worst fires in a decade](https://www.theguardian.com/environment/2020/oct/01/brazil-amazon-rainforest-worst-fires-in-decade).
 ---
