@@ -8,7 +8,7 @@ This project analyzes the spatio-temporal dynamics of fire spots in the Amazonia
 
 This project was conducted as part of the **Bayesian Statistical Methods and Data Analysis HS2024** course at **ETH Zurich**. The analysis is based on the paper:
 
-- **[Bayesian spatio-temporal modeling of the Brazilian fire spots between 2011 and 2022](https://doi.org/10.1038/s41598-024-70082-6)**  
+- **[Bayesian spatio-temporal modeling of the Brazilian fire spots between 2011 and 2022](https://doi.org/10.1038/s41598-024-70082-6)**
   by **Jonatha Sousa Pimentel**, **Rodrigo S. Bulhões**, and **Paulo Canas Rodrigues**.
 
 ### Citation:
@@ -24,8 +24,8 @@ Their research serves as the foundation for the **spatio-temporal modeling frame
 
 ### Data Sources
 1. **Fire Spot Data**: Brazilian National Institute for Space Research (INPE), satellite imagery (2011–2022).
-2. **Meteorological Data**: Brazilian National Institute of Meteorology (INMET), hourly data (2012–2021).
-3. **Land Use Data**: MapBiomas, annual land-use and transitions data (2011–2021).
+2. **Meteorological Data**: Brazilian National Institute of Meteorology (INMET), hourly data (2011–2022).
+3. **Land Use Data**: MapBiomas, annual land-use and transitions data (2011–2022).
 
 ### Key Features
 - 22 million fire spots detected over 12 years across Brazil.
@@ -83,8 +83,8 @@ Their research serves as the foundation for the **spatio-temporal modeling frame
 ### Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/<your-repo>/wildfire-model.git
-    cd wildfire-model
+    git clone https://github.com/nviebig/Bayesian-SpatioTemporal-Modeling.git
+    cd Bayesian-SpatioTemporal-Modeling
     ```
 
 2. Install the required Python libraries:
