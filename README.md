@@ -1,6 +1,6 @@
 ![Title Image](images/Title_image.png)
 
-This repository presents an analysis and Bayesian spatio-temporal modeling of wildfire occurrences in Brazil, focusing on their relationship with meteorological factors and land-use transitions. The study investigates over a decade of fire data to assess patterns, identify influencing factors, and evaluate model performance.
+This project analyzes the spatio-temporal dynamics of fire spots in the Amazonia biome over a 12-year period (2011–2022) using Bayesian statistics. By incorporating meteorological variables and land-use transitions, the analysis reveals critical insights into wildfire patterns and their driving factors.
 
 ---
 
