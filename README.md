@@ -59,20 +59,63 @@ Their research serves as the foundation for the **spatio-temporal modeling frame
 - **Likelihood**: Poisson-distributed fire counts.
 
 ---
+---
 
 ## Model Performance
 
-### Evaluation Metrics
-- Deviance Information Criterion (DIC) for model comparison.
-- Chi-squared goodness-of-fit for assessing model accuracy.
+### Modeling Results
 
-### Key Results
-- **Small Model**: Log-likelihood: -25,457,027.72, DIC: 1,304,898.
-- **Big Model**: Log-likelihood: -728,709.882, DIC: 1,459,754.219.
+#### Large Model
+Key meteorological factors contributing to the fire activity were identified with the computation and sampling of the large spatio-temporal model, including the weight matrix.
 
-### Visualization
-- Corner plots of posterior distributions.
-- Comparative analysis between models.
+![Corner plots of the large model parameters](Code/img/Big_Analysis/corner_big_reduced.png)
+
+*Table 1*: Summary of model parameter estimates and their credible intervals.
+
+| **Parameter**   | **Mean**  | **95% CI**            |
+|------------------|-----------|-----------------------|
+| β₀              | -7.6412   | [-7.7224, -7.5607]    |
+| β_{LUT}         | -0.0047   | [-0.0049, -0.0045]    |
+| β_{HUMID}       | -0.0623   | [-0.0625, -0.0620]    |
+| β_{TEMP}        | 0.2168    | [0.2150, 0.2186]      |
+| α               | -0.4099   | [-0.4997, -0.3254]    |
+| τ_{int}         | 1.1337    | [1.0193, 1.3190]      |
+| τ_{slo}         | 1.1558    | [0.9631, 1.4552]      |
+| ρ_{int}         | 0.0396    | [0.0014, 0.1228]      |
+| ρ_{slo}         | 0.1134    | [0.0114, 0.3066]      |
+
+#### Simplified Model
+For comparison, a simplified model was implemented, which reduces the effective parameter space from 1,121 to 5 by excluding the weight matrix and focusing only on the β and α parameters.
+
+![Corner plots of the simplified model parameters](Code/img/Small_Analysis/corner_small_reduced.png)
+
+*Table 2*: Summary of model parameter estimates and their credible intervals.
+
+| **Parameter**   | **Mean**  | **95% CI**            |
+|------------------|-----------|-----------------------|
+| β₀              | -6.6091   | [-6.6490, -6.5683]    |
+| β_{LUT}         | 0.0075    | [0.0074, 0.0075]      |
+| β_{HUMID}       | -0.0582   | [-0.0584, -0.0581]    |
+| β_{TEMP}        | 0.1651    | [0.1639, 0.1664]      |
+| α               | -0.6317   | [-0.6390, -0.6242]    |
+
+#### Interpretation of Findings
+The large hierarchical spatio-temporal model accurately captured the dynamics of fire spots in Amazonia and produced mean estimates and variances comparable to the referenced literature. 
+
+Using WAIC (Widely Applicable Information Criterion), the following results were obtained:
+
+*Table 3*: WAIC results for the Large and Simplified Models.
+
+| **Metric**     | **Large Model** | **Simplified Model** |
+|-----------------|-----------------|-----------------------|
+| elpd\_waic     | -805,858.52     | -1,208,581.91        |
+| p\_waic         | 48,417.23       | 1,807.82             |
+
+The large model has a less negative elpd\_waic (-805,858.52) compared to the simplified model (-1,208,581.91). However, the simplified model demonstrates better performance for its reduced complexity, as indicated by the effective number of parameters (p\_waic).
+
+![Model predictions versus observed data](Code/img/Big_Analysis/Monthly_averages.png)
+
+*Figure 1*: Model predictions versus observed fire activity.
 
 ---
 
