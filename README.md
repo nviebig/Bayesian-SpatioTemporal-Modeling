@@ -1,6 +1,6 @@
 ![Title Image](images/Title_image.png)
 
-This project employs Bayesian statistical methods to investigate the spatio-temporal dynamics of fire spots in the Amazonia biome over a 12-year period (2011–2022). Bayesian analysis allows for the integration of diverse data sources, handling uncertainty and variability inherent to complex ecological systems. By incorporating meteorological variables and land-use transitions, the report identifies key drivers of wildfire activity and provides robust insights into the patterns and mechanisms underlying fire dynamics.ct analyzes the spatio-temporal dynamics of fire spots in the Amazonia biome over a 12-year period (2011–2022) using Bayesian statistics. By incorporating meteorological variables and land-use transitions, the analysis reveals critical insights into wildfire patterns and their driving factors.
+This project employs Bayesian statistical methods to investigate the spatio-temporal dynamics of fire spots in the Amazonia biome over a 12-year period (2011–2022). Bayesian analysis allows for the integration of diverse data sources, handling uncertainty and variability inherent to complex ecological systems. By incorporating meteorological variables and land-use transitions, the report identifies key drivers of wildfire activity and provides robust insights into the patterns and mechanisms underlying fire dynamics.
 
 ---
 
