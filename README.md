@@ -15,6 +15,9 @@ This project was conducted as part of the **Bayesian Statistical Methods and Dat
 Pimentel, J.S., Bulhões, R.S. & Rodrigues, P.C. **Bayesian spatio-temporal modeling of the Brazilian fire spots between 2011 and 2022**. *Sci Rep* **14**, 21616 (2024). [https://doi.org/10.1038/s41598-024-70082-6](https://doi.org/10.1038/s41598-024-70082-6).
 
 Their research serves as the foundation for the **spatio-temporal modeling framework** applied in this project.
+
+---
+
 ## Overview
 
 ### Motivation
